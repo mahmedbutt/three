@@ -3,7 +3,7 @@ import "./styles/script.css";
 
 let world
 function main() {
-  const container = document.querySelector("div.container");
+  const container = document.querySelector("div.cube");
   world = new World(container);
   render()
 }
