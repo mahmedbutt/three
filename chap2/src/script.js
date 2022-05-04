@@ -1,11 +1,15 @@
 import { World } from "./World/World";
 import "./styles/script.css";
 
+let world
 function main() {
-  const container = document.querySelector("canvas.cube");
-  const world = new World(container);
+  const container = document.querySelector("div.container");
+  world = new World(container);
+  render()
+}
 
-  world.render();
+function render() {
+  world.render()
 }
 
 main();
