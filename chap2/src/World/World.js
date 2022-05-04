@@ -18,6 +18,7 @@ class World {
     const cube = createCube();
 
     scene.add(cube);
+    const resizer = new Resizer(container, camera, renderer);
   }
 
   render() {
